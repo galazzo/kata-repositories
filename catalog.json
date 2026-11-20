@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "products": {
+    "dojo": {
+      "versions": [
+        {
+          "version": "0.1.0-preview.1",
+          "channel": "preview",
+          "requires_forge": {
+            "min": "0.1.0",
+            "max": "0.1.9"
+          },
+          "artifacts": [
+            {
+              "platform": "win32",
+              "arch": "x64",
+              "kind": "nsis",
+              "file_name": "Dojo-Setup-0.1.0-preview-win-x64.exe",
+              "url": "https://github.com/galazzo/kata-repositories/releases/download/dojo-v0.1.0-preview/Dojo-Setup-0.1.0-preview-win-x64.exe",
+              "sha256": "ecbb06d72f6974a9bd904b116a39a9bb97adfddc9c063b3865250b2857529eeb",
+              "size": 184549032
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
